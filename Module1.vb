@@ -8,4 +8,7 @@ Sub Test()
             Sheet1.Cells(i, j).Value = i
         Next i
     Next j
+    Dim str As String
+    str = "Hello VBA "
+    Debug.Print str + "User"
 End Sub

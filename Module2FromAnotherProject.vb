@@ -5,4 +5,5 @@ Sub TestModule2()
     For i = 1 To 100
         Sheet1.Cells(i, j).Value = i
     Next i
+    Debug.Print "Hello"
 End Sub
